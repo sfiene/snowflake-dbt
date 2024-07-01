@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: activity
+    description: a table that contains my activity data from a phone app called Pacer
+    database: raw
+    schema: step_activity
+    tables:
+        - name: detailed_steps
+          description: raw detailed step data tracked  and collected every 15 minutes
+          
+        - name: daily_steps
+          description: step data that is aggregated by the day
+
+        - name: activity_sessions
+          description: raw data containing each activity session tracked

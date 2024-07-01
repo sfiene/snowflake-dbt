@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: sleep
+    description: a table that contains my sleep data from an app call Sleep Cycle
+    database: raw
+    schema: sleep_data
+    tables:
+        - name: sleep_data
+          description: raw sleep data 
