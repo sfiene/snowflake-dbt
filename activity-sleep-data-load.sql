@@ -6,7 +6,7 @@ create or replace schema raw.activity_sessions;
 create or replace schema raw.sleep_data;
 create or replace schema raw.step_activity;
 
-/* Used the following command to load files from local folder 
+/* Used the following command to load files from local folder using SnowSQL
 PUT file://C:\xxxxx\xxxxx\Downloads\sleepdata.csv @load_from_local; */
 
 /* List the files that were loaded into the stage */
